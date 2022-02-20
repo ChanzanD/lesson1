@@ -1,18 +1,20 @@
-class diploma {
-    boolean hireIfUHaveDiploma = true; {
-        if (hireIfUHaveDiploma == true) {
-            System.out.println("You are hired!!!");
-        } else {
-            System.out.println("You are not hired!!!");
-    }
-
-}
 public class Chanzan {
-        public static void main (String [] args) {
-        Student student = new Student();
-        student.getajob();
-            System.out.println();
+    public static void main(String [] args) {
 
-        }
-}
+        //for (int i = 100; i > 10; i-= 10)
+            //System.out.println(i);
+        //boolean isTrue = true;
+        //int u = 1;
+        //while (isTrue) {
+            //System.out.println(u);
+            //u += 2;
+           // if (u < 20)
+                //isTrue = false;
+        int x = 13;
+        do {
+            x++;
+            System.out.println(x);
+        }while (x < 10);
+
+    }
 }
